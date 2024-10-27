@@ -20,7 +20,7 @@ def show(img):
 def shape(tensor):
     print(tensor.size())
 
-def save_image(img, img_name='test', img_path='./images/'):
+def saveImage(img, img_name='test', img_path='./images/'):
     #img 图片
     #img_name 仅需图片的名字，无需'.jpg'
     #img_path 图片存储路径
@@ -36,7 +36,7 @@ def save_image(img, img_name='test', img_path='./images/'):
 
     img.save(img_path)
 
-def read_pic(pic_path, typeNumber=1):
+def readPic(pic_path, typeNumber=1):
 
     #typyNumber返回的照片参数
     #                       1:ndarry 2:tensor 3:PIL.Image
