@@ -1,3 +1,2 @@
-from zhangUtils.utils.util import show
+from zhangUtils.util import saveImage
 
-print(show)

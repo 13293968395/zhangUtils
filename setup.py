@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
  
 setuptools.setup(
     name="zhangUtils", # 用自己的名替换其中的YOUR_USERNAME_
-    version="0.1.3",    #包版本号，便于维护版本
+    version="0.1.12",    #包版本号，便于维护版本
     author="zhang",    #作者，可以写自己的姓名
     author_email="1694117691@qq.com",    #作者联系方式，可写自己的邮箱地址
     description="utils",#包的简述
